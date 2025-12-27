@@ -24,7 +24,7 @@
 .conheca{
     color: white;
     font-weight: bold;
-    font-size: 8vw;   
+    font-size: 7vw;   
     margin-left: 5%;
     max-width: 90%;
     line-height: 1.1;
@@ -36,8 +36,9 @@
     color: black;
     font-weight: bold;
 
-    padding: 1.5vw 5vw; 
+    padding: 1vw 4vw; 
     font-size: 2vw;
+    
 
     display: inline-block;
     margin-left: 15%;
@@ -46,11 +47,49 @@
 }
 
 .saiba:hover{
-    border: 1px solid black;
-    box-shadow: 2px 1px 10px black;
+   
+    box-shadow: 1px 1px 10px white;;
+
+    
 }
 
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap; /* mantém responsivo sem media */
+    padding: 2rem;
+}
 
+.card {
+    border: 1px solid black;
+    border-radius: 30px;
+    background: white;
+
+    flex: 1 1 260px;   
+    max-width: 300px;
+
+    min-height: 420px; 
+
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+
+    padding-bottom: 2rem;
+}
+
+.conheca_cards {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 25px;
+    font-weight: bold;
+    background: white;
+}
+
+.conheca_cards:hover {
+    box-shadow: 1px 1px 10px black;
+}
 
 </style>
 
@@ -65,7 +104,7 @@
 <div class="linksorig">
  <a href="#" class="links">Início</a>
   <a href="#" class="links">Projetos</a>
-   <a href="registrese.html" class="links">Entrar</a>
+   <a href="#" class="links">Sobre nós</a>
    </div>
 
    
@@ -88,14 +127,30 @@ Sobre nossos Projetos
 <p style=" font-size: 60px;">Bem vindo ao Zyno!</p>
 
 
-<div>
-<p style="text-align: center; right: 50%;">Seja muito bem-vindo(a) ao Zyno! 🚀
+<div style="display: flex;">
+<p style="text-align: center; right: 50%; display: flex;">Seja muito bem-vindo(a) ao Zyno! 🚀
 É um prazer ter você aqui. O Zyno é um espaço criado para pessoas criativas que desejam compartilhar seus projetos pessoais, mostrar suas ideias ao mundo e acompanhar a evolução de outros criadores.
 
 Aqui, você pode publicar seus projetos, apresentar suas habilidades, trocar experiências e se inspirar com conteúdos de diferentes áreas. Fique à vontade para explorar, criar e fazer parte da nossa comunidade. O seu próximo projeto começa aqui, no Zyno!</p>
 </div>
+</div>
+
+<div class="cards">
+
+    <div class="card">
+        <a href="#" class="conheca_cards">Conheça</a>
+    </div>
+
+    <div class="card">
+        <a href="#" class="conheca_cards">Conheça</a>
+    </div>
+
+    <div class="card">
+        <a href="#" class="conheca_cards">Conheça</a>
+    </div>
 
 </div>
+
 
 
 

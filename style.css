@@ -20,10 +20,11 @@
     font-weight: bold;
 }
 .links:hover{
-    border: #ADEBB3 5px solid;
+     box-shadow: 1px 1px 10px white;
 }
 
-.copy{ margin-top: 20%;
+.copy{
+     margin-top: 20%;
      padding: 80px;
      background: #59554e;
       text-align: center;
