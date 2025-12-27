@@ -24,7 +24,7 @@
 .conheca{
     color: white;
     font-weight: bold;
-    font-size: 7vw;   
+    font-size: 407%;   
     margin-left: 5%;
     max-width: 90%;
     line-height: 1.1;
@@ -36,8 +36,8 @@
     color: black;
     font-weight: bold;
 
-    padding: 1vw 4vw; 
-    font-size: 2vw;
+    padding: 1% 4%; 
+    font-size: 3vh;
     
 
     display: inline-block;
@@ -57,7 +57,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
-    flex-wrap: wrap; /* mantém responsivo sem media */
+    flex-wrap: wrap; 
     padding: 2rem;
 }
 
@@ -68,27 +68,35 @@
 
     flex: 1 1 260px;   
     max-width: 300px;
-
+    
     min-height: 420px; 
-
-    display: flex;
-    align-items: flex-end; 
+    position: relative;
+    display: inline-block; 
     justify-content: center;
-
+    background: #ADEBB3;
     padding-bottom: 2rem;
+}
+
+.card:hover{
+    box-shadow: 1px 0 7px black;
+    padding: 10px;
 }
 
 .conheca_cards {
     text-decoration: none;
     color: black;
-    border: 1px solid black;
     padding: 12px 25px;
     font-weight: bold;
     background: white;
+    position: absolute;
+    right: 34.5%;
+  margin-top: 100%;
+  
+
 }
 
 .conheca_cards:hover {
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px white;
 }
 
 </style>
@@ -137,15 +145,31 @@ Aqui, você pode publicar seus projetos, apresentar suas habilidades, trocar exp
 
 <div class="cards">
 
+
     <div class="card">
+
+
+
+        <img style="position: absolute; right: 46%; margin-top: 100%;background-color: white;padding: 1%;border-radius: 5px;" src="/Icons/cesta.png" width="10%" >
+<br><br>
+        <a href="#" class="conheca_cards">Conheça</a>
+    </div>
+
+
+
+    <div class="card">
+        
+    <img style="position: absolute; right: 46%; margin-top: 100%;background-color: white;padding: 1%;border-radius: 5px;" src="/Icons/joystick.png" width="10%" >
+<br><br>
+
         <a href="#" class="conheca_cards">Conheça</a>
     </div>
 
     <div class="card">
-        <a href="#" class="conheca_cards">Conheça</a>
-    </div>
 
-    <div class="card">
+    <img style="position: absolute; right: 46%; margin-top: 100%;background-color: white;padding: 1%;border-radius: 5px;" src="/Icons/plantar.png" width="10%" >
+<br><br>
+
         <a href="#" class="conheca_cards">Conheça</a>
     </div>
 
