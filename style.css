@@ -1,0 +1,32 @@
+.primeiro{
+    background: #ADEBB3;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.linksorig{
+    display: flex;
+    margin-left: auto;
+    gap: 7px;
+}
+
+.links{
+    text-decoration: none;
+    padding: 10px 15px;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+.links:hover{
+    border: #ADEBB3 5px solid;
+}
+
+.copy{ margin-top: 20%;
+     padding: 80px;
+     background: #59554e;
+      text-align: center;
+      color: white;
+      
+     }
